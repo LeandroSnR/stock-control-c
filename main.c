@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &p.codigo);
 
     printf("Digite o nome do produto: ");
-    scanf("%s", &p.nome);
+    scanf("%s", p.nome);
 
     printf("Digite a quantidade do produto: ");
     scanf("%d", &p.quantidade);
